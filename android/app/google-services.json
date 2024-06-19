@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "587997386916",
+    "firebase_url": "https://game1-puzzle-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "game1-puzzle",
+    "storage_bucket": "game1-puzzle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587997386916:android:d4727853d9f96b58c8ee31",
+        "android_client_info": {
+          "package_name": "com.example.puzzle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxvR9jUhx3OF6T0UlMXWIfaqCnn41VRok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
