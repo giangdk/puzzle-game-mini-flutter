@@ -7,6 +7,7 @@ part 'group_question.g.dart';
 class GroupQuestion with _$GroupQuestion {
   factory GroupQuestion({
     required String groupId,
+    @Default("") String id,
   }) = _GroupQuestion;
 
   factory GroupQuestion.fromJson(Map<String, dynamic> json) => _$GroupQuestionFromJson(json);

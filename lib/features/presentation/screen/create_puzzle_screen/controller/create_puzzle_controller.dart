@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
-
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +14,7 @@ import 'package:puzzle/features/data/data_source/remote/api/product_api.dart';
 import 'package:puzzle/features/data/models/group_question/group_question.dart';
 import 'package:puzzle/features/data/models/set_of_question/set_of_question.dart';
 import 'package:puzzle/features/presentation/screen/create_puzzle_screen/widget/create_quizz.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class CreatePuzzleController extends GetxController {
   var repo = getIt.get<ProductApi>();
@@ -28,7 +29,23 @@ class CreatePuzzleController extends GetxController {
   TextEditingController thumbnailController = TextEditingController();
 
   Rxn<XFile> image = Rxn();
+  Future<void> getDataLocal() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    String jsonListGroupId = await rootBundle.loadString('assets/lotties/listGroup.json');
+
+    if (prefs.getString("jsonListGroupId") == null || prefs.getString("jsonListGroupId") == "") {
+      await prefs.setString("jsonListGroupId", jsonListGroupId);
+    } else {
+      jsonListGroupId = prefs.getString("jsonListGroupId") ?? "";
+    }
+
+    final jsonListGroupIdResponse = jsonDecode(jsonListGroupId) as List;
+
+    listGroupId.value = jsonListGroupIdResponse.map((e) => GroupQuestion.fromJson(e)).toList();
+  }
+
   Future<void> getData() async {
+    getDataLocal();
     var db = FirebaseFirestore.instance;
     db.collection("listGroup").get().then(
       (querySnapshot) {
@@ -110,12 +127,21 @@ class CreatePuzzleController extends GetxController {
                 ))
             .toList(),
       );
+
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      String arr = prefs.getString("jsonListSetOfQuestion") ?? "";
+      arr = arr.substring(0, arr.length - 1);
+      arr;
+      arr = "$arr,${jsonEncode(setOfQuestion.toJson())}]";
+      print(arr);
+      prefs.setString("jsonListSetOfQuestion", arr);
+      if (setOfQuestion.title == "test") return Get.back();
       var db = FirebaseFirestore.instance;
       final setOfQuestions = db.collection("setOfQuestions");
-
       setOfQuestions.doc(id).set(
             jsonDecode(jsonEncode(setOfQuestion.toJson())),
           );
+
       EasyLoading.showSuccess(
         "Tạo câu đố thành công",
       );

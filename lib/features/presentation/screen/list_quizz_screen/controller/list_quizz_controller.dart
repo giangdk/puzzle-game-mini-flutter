@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -6,6 +8,8 @@ import 'package:puzzle/features/data/data_source/remote/api/product_api.dart';
 import 'package:puzzle/features/data/models/group_question/group_question.dart';
 import 'package:puzzle/features/data/models/set_of_question/set_of_question.dart';
 import 'package:puzzle/features/presentation/routes/app_routes.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:shared_preferences/shared_preferences.dart';
 
 class ListQuizzController extends GetxController {
   var repo = getIt.get<ProductApi>();
@@ -13,7 +17,36 @@ class ListQuizzController extends GetxController {
   RxList<GroupQuestion> listGroupId = RxList([]);
   RxMap<String, List<SetOfQuestion>> mapQuizz = RxMap();
   var db = FirebaseFirestore.instance;
+  Future<void> getDataLocal() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    String jsonListGroupId = prefs.getString("jsonListGroupId") ?? "";
+    String jsonListSetOfQuestion = prefs.getString("jsonListSetOfQuestion") ?? "";
+    if (prefs.getString("jsonListGroupId") == null || prefs.getString("jsonListGroupId") == "") {
+      await prefs.setString("jsonListGroupId", jsonListGroupId);
+    } else {
+      jsonListGroupId = prefs.getString("jsonListGroupId") ?? "";
+    }
+    if (prefs.getString("jsonListSetOfQuestion") == null || prefs.getString("jsonListSetOfQuestion") == "") {
+      await prefs.setString("jsonListSetOfQuestion", jsonListSetOfQuestion);
+    } else {
+      jsonListSetOfQuestion = prefs.getString("jsonListSetOfQuestion") ?? "";
+    }
+    final jsonListGroupIdResponse = jsonDecode(jsonListGroupId) as List;
+    final jsonListSetOfQuestionResponse = jsonDecode(jsonListSetOfQuestion) as List;
+
+    List<SetOfQuestion> listQuestion = jsonListSetOfQuestionResponse.map((e) => SetOfQuestion.fromJson(e)).toList();
+    listGroupId.value = jsonListGroupIdResponse.map((e) => GroupQuestion.fromJson(e)).toList();
+
+    for (var elementGroup in listGroupId) {
+      if (listQuestion.where((element) => element.groupId == elementGroup.groupId).toList().isNotEmpty) {
+        mapQuizz.value[elementGroup.groupId] = listQuestion.where((element) => element.groupId == elementGroup.groupId).toList();
+      }
+    }
+    update();
+  }
+
   Future<void> getData() async {
+    getDataLocal();
     db.collection("listGroup").get().then(
       (querySnapshot) {
         print("Successfully get listGroup completed");

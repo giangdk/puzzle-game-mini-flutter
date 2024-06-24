@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:puzzle/core/config/app_colors.dart';
 import 'package:puzzle/core/injection/injection.config.dart';
 import 'package:puzzle/features/presentation/routes/app_routes.dart';
 import 'package:puzzle/features/presentation/screen/home_screen/controller/home_controller.dart';
@@ -193,7 +194,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         return ButtonMenu(
                           onTap: () async {
                             final PurchaseParam purchaseParam = PurchaseParam(productDetails: inappController.products.value[0]);
-
                             try {
                               await inAppController.inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
                             } catch (e) {
@@ -214,6 +214,89 @@ class _HomeScreenState extends State<HomeScreen> {
       },
     );
   }
+}
+
+Future<void> showDialogUtils({
+  String? title,
+  required String content,
+  Function? rightAction,
+  required String rightTitle,
+}) async {
+  showDialog(
+    context: Get.context!,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        insetPadding: const EdgeInsets.all(24),
+        titlePadding: const EdgeInsets.only(left: 16, right: 16, top: 16, bottom: 12),
+        contentPadding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
+        actionsPadding: const EdgeInsets.only(left: 16, right: 16, bottom: 16),
+        contentTextStyle: TextStyle(color: Colors.grey[500], fontWeight: FontWeight.w500),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: Text(
+          title ?? "",
+          textAlign: TextAlign.center,
+        ),
+        content: Text(
+          content,
+          textAlign: TextAlign.center,
+        ),
+        actions: [
+          Row(
+            children: [
+              Expanded(
+                child: Material(
+                  color: Colors.grey[100],
+                  borderRadius: BorderRadius.circular(10),
+                  child: InkWell(
+                    borderRadius: BorderRadius.circular(10),
+                    onTap: () {
+                      // Get.back(result: false);
+                      Get.back();
+                    },
+                    splashColor: Colors.black12,
+                    highlightColor: Colors.black12,
+                    child: Container(
+                      height: 40,
+                      padding: const EdgeInsets.symmetric(horizontal: 12),
+                      alignment: Alignment.center,
+                      child: Text(
+                        'Hỗ trợ',
+                        style: TextStyle(color: Colors.grey[800], fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Material(
+                  color: const Color(0xFFF05252),
+                  borderRadius: BorderRadius.circular(10),
+                  child: InkWell(
+                    borderRadius: BorderRadius.circular(10),
+                    onTap: () {
+                      Get.back();
+                      rightAction?.call();
+                    },
+                    splashColor: Colors.black12,
+                    highlightColor: Colors.black12,
+                    child: Container(
+                      height: 40,
+                      padding: const EdgeInsets.symmetric(horizontal: 12),
+                      alignment: Alignment.center,
+                      child: Text(
+                        rightTitle,
+                        style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          )
+        ],
+      );
+    },
+  );
 }
 
 class ButtonMenu extends StatefulWidget {

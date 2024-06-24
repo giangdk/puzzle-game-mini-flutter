@@ -21,6 +21,7 @@ GroupQuestion _$GroupQuestionFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$GroupQuestion {
   String get groupId => throw _privateConstructorUsedError;
+  String get id => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -34,7 +35,7 @@ abstract class $GroupQuestionCopyWith<$Res> {
           GroupQuestion value, $Res Function(GroupQuestion) then) =
       _$GroupQuestionCopyWithImpl<$Res, GroupQuestion>;
   @useResult
-  $Res call({String groupId});
+  $Res call({String groupId, String id});
 }
 
 /// @nodoc
@@ -51,11 +52,16 @@ class _$GroupQuestionCopyWithImpl<$Res, $Val extends GroupQuestion>
   @override
   $Res call({
     Object? groupId = null,
+    Object? id = null,
   }) {
     return _then(_value.copyWith(
       groupId: null == groupId
           ? _value.groupId
           : groupId // ignore: cast_nullable_to_non_nullable
+              as String,
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
               as String,
     ) as $Val);
   }
@@ -69,7 +75,7 @@ abstract class _$$GroupQuestionImplCopyWith<$Res>
       __$$GroupQuestionImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String groupId});
+  $Res call({String groupId, String id});
 }
 
 /// @nodoc
@@ -84,11 +90,16 @@ class __$$GroupQuestionImplCopyWithImpl<$Res>
   @override
   $Res call({
     Object? groupId = null,
+    Object? id = null,
   }) {
     return _then(_$GroupQuestionImpl(
       groupId: null == groupId
           ? _value.groupId
           : groupId // ignore: cast_nullable_to_non_nullable
+              as String,
+      id: null == id
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
               as String,
     ));
   }
@@ -97,17 +108,20 @@ class __$$GroupQuestionImplCopyWithImpl<$Res>
 /// @nodoc
 @JsonSerializable()
 class _$GroupQuestionImpl implements _GroupQuestion {
-  _$GroupQuestionImpl({required this.groupId});
+  _$GroupQuestionImpl({required this.groupId, this.id = ""});
 
   factory _$GroupQuestionImpl.fromJson(Map<String, dynamic> json) =>
       _$$GroupQuestionImplFromJson(json);
 
   @override
   final String groupId;
+  @override
+  @JsonKey()
+  final String id;
 
   @override
   String toString() {
-    return 'GroupQuestion(groupId: $groupId)';
+    return 'GroupQuestion(groupId: $groupId, id: $id)';
   }
 
   @override
@@ -115,12 +129,13 @@ class _$GroupQuestionImpl implements _GroupQuestion {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$GroupQuestionImpl &&
-            (identical(other.groupId, groupId) || other.groupId == groupId));
+            (identical(other.groupId, groupId) || other.groupId == groupId) &&
+            (identical(other.id, id) || other.id == id));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(runtimeType, groupId);
+  int get hashCode => Object.hash(runtimeType, groupId, id);
 
   @JsonKey(ignore: true)
   @override
@@ -137,13 +152,16 @@ class _$GroupQuestionImpl implements _GroupQuestion {
 }
 
 abstract class _GroupQuestion implements GroupQuestion {
-  factory _GroupQuestion({required final String groupId}) = _$GroupQuestionImpl;
+  factory _GroupQuestion({required final String groupId, final String id}) =
+      _$GroupQuestionImpl;
 
   factory _GroupQuestion.fromJson(Map<String, dynamic> json) =
       _$GroupQuestionImpl.fromJson;
 
   @override
   String get groupId;
+  @override
+  String get id;
   @override
   @JsonKey(ignore: true)
   _$$GroupQuestionImplCopyWith<_$GroupQuestionImpl> get copyWith =>

@@ -1,0 +1,712 @@
+[
+    {
+        "title": "Hệ mặt trời",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2F8d808f98-c28b-4116-8ed1-64d16bb94dd8.jpeg?alt=media&token=07e32d36-4d29-4dbd-bc56-b001dd175ffb",
+        "id": "6stlkoddvk9l845n69bp",
+        "groupId": "Thiên văn học",
+        "questions": [
+            {
+                "questionTitle": "Hệ mặt trời có bao nhiêu hành tinh?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "7"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "8"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "9"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "10"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh lớn nhất trong hệ mặt trời?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Kim"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Mộc"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Thuỷ"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Thổ"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Sao Diêm Vương không còn nằm trong hệ mặt trời từ năm nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "2006"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "2007"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "2008"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "2009"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Thế chiến 2",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Fdf52794c-debe-4372-90f5-45b5c95bdf7b.jpeg?alt=media&token=064408b7-79c1-429d-a275-e0c6cf1b4078",
+        "id": "adpdt6puv4ust2ldq4se",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Chiến tranh thế giới thứ II diễn ra trong khoảng thời gian nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1914 - 1918"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1929 - 1933"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1939 - 1945"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1949 - 1954"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Thủ tướng nước Anh trong thế chiến II là ai?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Rishi Sunak"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Winston Churchill"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Liz Truss"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Theresa May"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Cuộc đổ bộ Normandy diễn ra vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1933"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1943"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1944"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1945"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Câu hỏi lịch sử tập 2",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Ftong-hop-100-cau-do-hay-ve-lich-su-viet-nam-kem-dap-an-202212192047130070.jpg?alt=media&token=d3f4ecc1-61ec-44a0-a64b-62c10074f4c1",
+        "id": "byfv2vyy7w4fwokmt5fh",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Đố ai đan sọt giữa đàngGiáo đâm thủng vế rõ ràng không hay. - Là ai?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Phạm Ngũ Lão"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Duy Tân"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Triết Giang"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Trương Công Định"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Từng khen khóc lóc theo chaRồi đem nợ nước, tình nhà ra cân.Núi Lam tìm giúp minh quânBình Ngô đại cáo, bút thần ra tay. - Là ai?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Nguyễn Trãi"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Bạch Tranh"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Nguyễn Du"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Khúc Thừa Dụ"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Móng rùa thần tặng vua nào?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Lý Công Uẩn"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "An Dương Vương"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Quang Trung"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Hoàng Diệu"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Rừng Lam khởi nghĩa áo nâu anh hùng ?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Lê Lai"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Lê Lợi"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Chu Văn An"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Nguyễn Đình Chiểu"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Âm nhạc Việt Nam",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Fa%CC%82m%20nha%CC%A3c.jpg?alt=media&token=52dae5b8-5a0d-4209-8ab1-e52f87d3a87c",
+        "id": "im090r4bl9mvtprjegcu",
+        "groupId": "Văn hoá",
+        "questions": [
+            {
+                "questionTitle": "Bài hát \"Vết mưa\" là sáng tác của nhạc sĩ nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Vũ Cát Tường"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Vũ."
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sơn Tùng M-TP"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Hoài Lâm"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nghệ sĩ VN đầu tiên được debut vào bảng xếp hạng Billboard Mỹ là ai?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "MCK"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sơn Tùng M-TP"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Noo Phước Thịnh"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tlinh"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Bài hát nào sau đây là của nhạc sĩ Trịnh Công Sơn?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Ngã tư đường"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Con đường xưa em đi"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Diễm Xưa"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Em của ngày hôm qua"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Câu đố vui trung thu",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2FCau-Do1.jpg?alt=media&token=bdd30f6b-9e5b-4d64-b0dd-efb99fdfae10",
+        "id": "jjpnl5tmnqgmklbuha7s",
+        "groupId": "Khác",
+        "questions": [
+            {
+                "questionTitle": "Mồm bò mà không phải mồm bò. Đố là con gì",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Con ốc sên"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Con bò"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Con voi"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Con cóc"
+                    }
+                ]
+            },
+            {
+                "questionTitle": " Bàn gì xe ngựa sớm chiều giơ ra",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Bàn đạp xe"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Bàn máy khâu"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Bàn cờ tướng"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Bàn uống nước"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hột để sống: Một tên. Hột nấu lên: tên khác. Trong nhà nông các bác. Đều có mặt cả hai?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hột đỗ"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Hột gà"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Hột nhãn"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Hột gạo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Kháng chiến chống Pháp ",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Fkha%CC%81ng%20chie%CC%82%CC%81n%20cho%CC%82%CC%81ng%20pha%CC%81p.jpeg?alt=media&token=bc81c914-8512-4434-a089-3008439dbf52",
+        "id": "p6ko9yx8kihiwl5xjnqw",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Cuộc kháng chiến chống Pháp của nhân dân Việt Nam (1946- 1954) còn có tên gọi khác là gì?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Chiến tranh Việt Nam hiện đại"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Chiến tranh giải phóng miền Bắc"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Chiến tranh Đông Dương"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Chiến tranh Việt Nam"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Chiến dịch Điện Biên Phủ thắng lợi vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1952"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1953"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1954"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1955"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hội nghị kết thúc chiến tranh Đông Dương được diễn ra ở đâu?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Thuỵ Điển"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Phần Lan"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Thuỵ Sỹ"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Bỉ"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "cau do",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2F8d808f98-c28b-4116-8ed1-64d16bb94dd8.jpeg?alt=media&token=07e32d36-4d29-4dbd-bc56-b001dd175ffb",
+        "id": "u5fr7odekabv4ns8xcr3",
+        "groupId": "Khác",
+        "questions": [
+            {
+                "questionTitle": "khi nam thi dung, khi dung thi nam.",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "dau"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "minh"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "tay"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "chan"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Thời phong kiến Việt Nam",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Fphong%20kie%CC%82%CC%81n%20vie%CC%A3%CC%82t%20nam.jpeg?alt=media&token=90b32d96-5301-4abd-b221-d01dec709f96",
+        "id": "w91izpyxjua6nhcexwpg",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Triều đại phong kiến cuối cùng của Việt Nam là?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hậu Lê"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Đinh"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Nguyễn"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Trần"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Cuộc khởi nghĩa Lam Sơn thắng lợi dẫn tới sự hình thành của triều đại nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hậu Lê"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Hậu Trần"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Nguyễn"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Lý"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Lý Công Uẩn dời đô về Thăng Long vào năm nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1010"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1020"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1030"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1040"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Bộ câu hỏi lịch sử tập 1",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Ftong-hop-100-cau-do-hay-ve-lich-su-viet-nam-kem-dap-an-202212192050460300.jpg?alt=media&token=e85b7947-622e-4600-a7af-dcff3635e53f",
+        "id": "wrjbsjrytdt2j3qsifjg",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Nền văn minh nào lâu đời nhất trên thế giới?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Trung Quốc"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Lưỡng Hà"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Mỹ"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Việt Nam"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Thời kỳ nào được gọi là Thời kỳ Hoàng kim của La Mã?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Công nghiệp hoá"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "3.0"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "4.0"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Augustus Caesar"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai đã khám phá Tân Thế giới?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hồ Chí Minh"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": " Luffy"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Christopher Columbus."
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Naruto"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người phát minh ra đèn điện? ",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Doremon"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Chistopper Nolan"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Nobita"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Thomas Edison"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người sáng lập Đảng cộng sản? ",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Võ Nguyên Giáp"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Mác"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Hồ Chí Minh"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Lê-nin"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nước nào thuộc bán đảo Đông Dương trong thời Pháp thuộc?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Việt Nam"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Việt Nam, Lào, Campuchia"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Lào"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Campuchia"
+                    }
+                ]
+            }
+        ]
+    }
+]
