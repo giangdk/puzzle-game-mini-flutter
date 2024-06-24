@@ -246,13 +246,6 @@ class _TestDetailState extends State<TestDetail> {
                       onChange: (String timeStamp) {
                         debugPrint('Countdown Changed $timeStamp');
                       },
-                      timeFormatterFunction: (defaultFormatterFunction, duration) {
-                        if (duration.inSeconds == 0) {
-                          return "Start";
-                        } else {
-                          return Function.apply(defaultFormatterFunction, [duration]);
-                        }
-                      },
                     ),
                   ],
                 ),

@@ -142,9 +142,6 @@ class _CreatePuzzleScreenState extends State<CreatePuzzleScreen> {
                                   elevation: 0,
                                   isExpanded: true,
                                   underline: null,
-                                  padding: const EdgeInsets.symmetric(
-                                    horizontal: 8,
-                                  ),
                                   value: controller.groupIdSelected.value,
                                   hint: const Text('Chọn chủ đề'),
                                   items: controller.listGroupId.value.map((GroupQuestion value) {

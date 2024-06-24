@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_storage/firebase_storage.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -46,19 +46,19 @@ class CreatePuzzleController extends GetxController {
 
   Future<void> getData() async {
     getDataLocal();
-    var db = FirebaseFirestore.instance;
-    db.collection("listGroup").get().then(
-      (querySnapshot) {
-        print("Successfully get listGroup completed");
-        for (var docSnapshot in querySnapshot.docs) {
-          GroupQuestion model = GroupQuestion.fromJson(docSnapshot.data());
-          listGroupId.add(model);
-          model;
-        }
-        update();
-      },
-      onError: (e) => print("Error get listGroup completing: $e"),
-    );
+    // var db = FirebaseFirestore.instance;
+    // db.collection("listGroup").get().then(
+    //   (querySnapshot) {
+    //     print("Successfully get listGroup completed");
+    //     for (var docSnapshot in querySnapshot.docs) {
+    //       GroupQuestion model = GroupQuestion.fromJson(docSnapshot.data());
+    //       listGroupId.add(model);
+    //       model;
+    //     }
+    //     update();
+    //   },
+    //   onError: (e) => print("Error get listGroup completing: $e"),
+    // );
   }
 
   Future<void> createSetOfQuestion() async {}
@@ -73,25 +73,26 @@ class CreatePuzzleController extends GetxController {
   }
 
   Future<String?> upImage(XFile file) async {
-    try {
-      String fileName = basename(file.path);
-      // Get a reference to the Firebase Storage location where we'll store the image
-      Reference firebaseStorageRef = FirebaseStorage.instance.ref().child('images/$fileName');
+    return "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Fkha%CC%81ng%20chie%CC%82%CC%81n%20cho%CC%82%CC%81ng%20pha%CC%81p.jpeg?alt=media&token=bc81c914-8512-4434-a089-3008439dbf52";
+    // try {
+    //   String fileName = basename(file.path);
+    //   // Get a reference to the Firebase Storage location where we'll store the image
+    //   Reference firebaseStorageRef = FirebaseStorage.instance.ref().child('images/$fileName');
 
-      // Upload the image file to Firebase Storage
-      UploadTask uploadTask = firebaseStorageRef.putFile(
-        File(file.path),
-      );
+    //   // Upload the image file to Firebase Storage
+    //   UploadTask uploadTask = firebaseStorageRef.putFile(
+    //     File(file.path),
+    //   );
 
-      // Wait for the upload to complete and get the download URL
-      String imageUrl = await (await uploadTask).ref.getDownloadURL();
+    //   // Wait for the upload to complete and get the download URL
+    //   String imageUrl = await (await uploadTask).ref.getDownloadURL();
 
-      // Return the download URL
-      thumbnailController.text = imageUrl;
-      return imageUrl;
-    } catch (e) {
-      return null;
-    }
+    //   // Return the download URL
+    //   thumbnailController.text = imageUrl;
+    //   return imageUrl;
+    // } catch (e) {
+    //   return null;
+    // }
   }
 
   Future<void> createQuestion() async {
@@ -136,11 +137,11 @@ class CreatePuzzleController extends GetxController {
       print(arr);
       prefs.setString("jsonListSetOfQuestion", arr);
       if (setOfQuestion.title == "test") return Get.back();
-      var db = FirebaseFirestore.instance;
-      final setOfQuestions = db.collection("setOfQuestions");
-      setOfQuestions.doc(id).set(
-            jsonDecode(jsonEncode(setOfQuestion.toJson())),
-          );
+      // var db = FirebaseFirestore.instance;
+      // final setOfQuestions = db.collection("setOfQuestions");
+      // setOfQuestions.doc(id).set(
+      //       jsonDecode(jsonEncode(setOfQuestion.toJson())),
+      //     );
 
       EasyLoading.showSuccess(
         "Tạo câu đố thành công",

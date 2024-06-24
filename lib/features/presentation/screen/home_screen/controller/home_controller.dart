@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:cloud_firestore/cloud_firestore.dart';
+// import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:puzzle/core/injection/injection.dart';
@@ -45,22 +45,22 @@ class HomeController extends GetxController {
   Future<void> getData() async {
     await init();
     getDataLocal();
-    var db = FirebaseFirestore.instance;
-    db.collection("setOfQuestions").get().then(
-      (querySnapshot) async {
-        print("Successfully get setOfQuestions completed");
-        // List<String> arr = [];
-        for (var docSnapshot in querySnapshot.docs) {
-          SetOfQuestion model = SetOfQuestion.fromJson(docSnapshot.data());
-          listSetOfQuestion.add(model);
-          // arr.add(jsonEncode(model.toJson()));
-          model;
-        }
-        // print(arr);
-        update();
-      },
-      onError: (e) => print("Error get setOfQuestions completing: $e"),
-    );
+    // var db = FirebaseFirestore.instance;
+    // db.collection("setOfQuestions").get().then(
+    //   (querySnapshot) async {
+    //     print("Successfully get setOfQuestions completed");
+    //     // List<String> arr = [];
+    //     for (var docSnapshot in querySnapshot.docs) {
+    //       SetOfQuestion model = SetOfQuestion.fromJson(docSnapshot.data());
+    //       listSetOfQuestion.add(model);
+    //       // arr.add(jsonEncode(model.toJson()));
+    //       model;
+    //     }
+    //     // print(arr);
+    //     update();
+    //   },
+    //   onError: (e) => print("Error get setOfQuestions completing: $e"),
+    // );
   }
 }
 
