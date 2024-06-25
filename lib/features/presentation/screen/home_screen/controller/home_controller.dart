@@ -113,7 +113,7 @@ class InAppController extends GetxController {
       } else if (purchaseDetails.status == PurchaseStatus.purchased) {
         final SharedPreferences prefs = await SharedPreferences.getInstance();
         var num = prefs.getInt("turn") ?? 0;
-        await prefs.setInt("turn", num + 15);
+        await prefs.setInt("turn", num + 10);
         Get.put(HomeController()).init();
         verifyPurchase(purchaseDetails);
       }
