@@ -1,3 +1,4 @@
+import 'package:flutter_svg/svg.dart';
 import 'package:puzzle/app.dart';
 import 'package:puzzle/features/presentation/routes/app_routes.dart';
 import 'package:flutter/material.dart';
@@ -16,22 +17,27 @@ class _SplashScreenState extends State<SplashScreen> with RouteAware {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.bottomCenter,
+          end: Alignment.topCenter,
+          colors: [
+            Color.fromARGB(255, 115, 11, 67),
+            Color.fromARGB(255, 153, 17, 67),
+          ],
+        ),
+      ),
       alignment: Alignment.center,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const SizedBox(
-            height: 70,
+          Padding(
+            padding: const EdgeInsets.only(left: 50),
+            child: SvgPicture.asset(
+              "assets/images/uiz.svg",
+              height: 300,
+            ),
           ),
-          const Text(
-            "Hành Trình Trí Tuệ",
-            style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.black),
-          ),
-          const SizedBox(
-            height: 20,
-          ),
-          Lottie.asset('assets/lotties/splash.json', width: 200),
         ],
       ),
     );

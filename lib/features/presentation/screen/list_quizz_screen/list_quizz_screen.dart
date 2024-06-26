@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 import 'package:puzzle/features/presentation/routes/app_routes.dart';
+import 'package:puzzle/features/presentation/screen/home_screen/home_screen.dart';
 import 'package:puzzle/features/presentation/screen/list_quizz_screen/controller/list_quizz_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -65,88 +66,143 @@ class _ListQuizzScreenState extends State<ListQuizzScreen> {
                                 ),
                               ),
                             ),
-                            Container(
-                              height: 250,
-                              child: ListView.separated(
-                                scrollDirection: Axis.horizontal,
-                                padding: const EdgeInsets.only(
-                                  left: 10,
-                                  right: 10,
-                                  top: 10,
-                                ),
-                                itemCount: entries[index].value.length,
-                                itemBuilder: (context, index2) {
-                                  return InkWell(
-                                    onTap: () async {
-                                      final SharedPreferences prefs = await SharedPreferences.getInstance();
-                                      var a = prefs.getInt("turn") ?? 0;
-                                      if (a <= 0) {
-                                        EasyLoading.showError("Bạn cần mua thêm lượt chơi");
-                                        return;
-                                      } else {
-                                        prefs.setInt("turn", a - 1);
-                                      }
-                                      Get.toNamed(AppRoutes.testScreen, arguments: {
-                                        "setOfQuestion": entries[index].value[index2],
-                                      });
-                                    },
-                                    child: Container(
-                                      height: 250,
-                                      width: 220,
-                                      clipBehavior: Clip.antiAlias,
-                                      decoration: BoxDecoration(
-                                        color: Colors.white,
-                                        borderRadius: BorderRadius.circular(10),
-                                        border: Border.all(
-                                          color: Colors.grey[400]!,
-                                          width: 1,
-                                        ),
-                                        boxShadow: const [
-                                          BoxShadow(
-                                            color: Colors.grey,
-                                            blurRadius: 0,
-                                            spreadRadius: 0,
-                                            offset: Offset(2, 2),
-                                          ),
-                                        ],
-                                      ),
-                                      child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.stretch,
-                                        children: [
-                                          Expanded(
-                                            flex: 3,
-                                            child: CachedNetworkImage(
-                                              imageUrl: entries[index].value[index2].thumbnail,
-                                              fit: BoxFit.cover,
-                                            ),
-                                          ),
-                                          Expanded(
-                                            flex: 1,
-                                            child: Container(
-                                              padding: const EdgeInsets.symmetric(
-                                                vertical: 12,
-                                                horizontal: 10,
-                                              ),
-                                              child: Text(
-                                                entries[index].value[index2].title,
-                                                style: const TextStyle(
-                                                  fontWeight: FontWeight.w600,
-                                                  fontSize: 15,
+                            Wrap(
+                              children: [
+                                for (int index2 = 0; index2 < entries[index].value.length; index2++)
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 8,
+                                      vertical: 8,
+                                    ),
+                                    child: InkWell(
+                                      onTap: () async {
+                                        final SharedPreferences prefs = await SharedPreferences.getInstance();
+
+                                        TextEditingController textEditingController = TextEditingController(text: prefs.getString("name"));
+                                        showDialogUtils(
+                                            title: "Nhập tên người chơi",
+                                            content: SizedBox(
+                                              width: 400,
+                                              child: TextFormField(
+                                                maxLength: 20,
+                                                controller: textEditingController,
+                                                decoration: InputDecoration(
+                                                  border: OutlineInputBorder(
+                                                    borderRadius: BorderRadius.circular(20),
+                                                    borderSide: const BorderSide(
+                                                      color: Color.fromRGBO(141, 76, 211, 1),
+                                                      width: 1,
+                                                    ),
+                                                  ),
+                                                  label: const Text(
+                                                    "Tên người chơi",
+                                                    style: TextStyle(fontSize: 13),
+                                                  ),
+                                                  contentPadding: const EdgeInsets.symmetric(
+                                                    horizontal: 10,
+                                                    vertical: 20,
+                                                  ),
+                                                  hintText: "Tên người chơi",
                                                 ),
                                               ),
                                             ),
-                                          )
-                                        ],
+                                            rightTitle: "Bắt đầu",
+                                            rightAction: () async {
+                                              final SharedPreferences prefs = await SharedPreferences.getInstance();
+                                              prefs.setString(
+                                                "name",
+                                                textEditingController.text,
+                                              );
+                                              var a = prefs.getInt("turn") ?? 0;
+                                              if (a <= 0) {
+                                                EasyLoading.showError("Bạn cần mua thêm lượt chơi");
+                                                return;
+                                              } else {
+                                                prefs.setInt("turn", a - 1);
+                                              }
+                                              Get.toNamed(AppRoutes.testScreen, arguments: {
+                                                "setOfQuestion": entries[index].value[index2],
+                                              });
+                                            });
+                                      },
+                                      child: Container(
+                                        height: 250,
+                                        width: 220,
+                                        clipBehavior: Clip.antiAlias,
+                                        decoration: BoxDecoration(
+                                          color: Colors.white,
+                                          borderRadius: BorderRadius.circular(10),
+                                          border: Border.all(
+                                            color: Colors.grey[400]!,
+                                            width: 1,
+                                          ),
+                                          boxShadow: const [
+                                            BoxShadow(
+                                              color: Color.fromRGBO(141, 76, 211, 1),
+                                              offset: Offset(0, 4),
+                                            ),
+                                          ],
+                                        ),
+                                        child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                                          children: [
+                                            Expanded(
+                                              flex: 3,
+                                              child: CachedNetworkImage(
+                                                imageUrl: entries[index].value[index2].thumbnail,
+                                                fit: BoxFit.cover,
+                                              ),
+                                            ),
+                                            Expanded(
+                                              flex: 1,
+                                              child: Container(
+                                                padding: const EdgeInsets.symmetric(
+                                                  vertical: 8,
+                                                  horizontal: 10,
+                                                ),
+                                                child: Column(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Container(
+                                                      decoration: BoxDecoration(
+                                                          borderRadius: BorderRadius.circular(20),
+                                                          color: const Color.fromARGB(255, 223, 218, 229),
+                                                          border: Border.all(
+                                                            width: 1,
+                                                            color: const Color.fromRGBO(141, 76, 211, 1),
+                                                          )),
+                                                      padding: const EdgeInsets.symmetric(
+                                                        vertical: 2,
+                                                        horizontal: 4,
+                                                      ),
+                                                      child: const Text(
+                                                        "QUIZ",
+                                                        style: TextStyle(
+                                                          fontSize: 8,
+                                                          color: Color.fromRGBO(141, 76, 211, 1),
+                                                        ),
+                                                      ),
+                                                    ),
+                                                    const SizedBox(
+                                                      height: 4,
+                                                    ),
+                                                    Text(
+                                                      entries[index].value[index2].title,
+                                                      style: const TextStyle(
+                                                        fontWeight: FontWeight.w600,
+                                                        fontSize: 15,
+                                                      ),
+                                                    ),
+                                                  ],
+                                                ),
+                                              ),
+                                            )
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  );
-                                },
-                                separatorBuilder: (BuildContext context, int index) {
-                                  return const SizedBox(
-                                    width: 20,
-                                  );
-                                },
-                              ),
+                                  )
+                              ],
                             )
                           ],
                         );

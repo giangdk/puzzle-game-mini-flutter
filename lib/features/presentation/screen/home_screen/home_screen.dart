@@ -218,7 +218,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 Future<void> showDialogUtils({
   String? title,
-  required String content,
+  required Widget content,
   Function? rightAction,
   required String rightTitle,
 }) async {
@@ -236,10 +236,7 @@ Future<void> showDialogUtils({
           title ?? "",
           textAlign: TextAlign.center,
         ),
-        content: Text(
-          content,
-          textAlign: TextAlign.center,
-        ),
+        content: content,
         actions: [
           Row(
             children: [
@@ -260,16 +257,19 @@ Future<void> showDialogUtils({
                       padding: const EdgeInsets.symmetric(horizontal: 12),
                       alignment: Alignment.center,
                       child: Text(
-                        'Hỗ trợ',
+                        'Thoát',
                         style: TextStyle(color: Colors.grey[800], fontWeight: FontWeight.w600),
                       ),
                     ),
                   ),
                 ),
               ),
+              const SizedBox(
+                width: 20,
+              ),
               Expanded(
                 child: Material(
-                  color: const Color(0xFFF05252),
+                  color: const Color.fromRGBO(141, 76, 211, 1),
                   borderRadius: BorderRadius.circular(10),
                   child: InkWell(
                     borderRadius: BorderRadius.circular(10),

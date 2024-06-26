@@ -12,7 +12,7 @@ part of 'product_model.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 ProductModel _$ProductModelFromJson(Map<String, dynamic> json) {
   return _ProductModel.fromJson(json);
@@ -98,11 +98,11 @@ class _$ProductModelCopyWithImpl<$Res, $Val extends ProductModel>
 }
 
 /// @nodoc
-abstract class _$$ProductModelImplCopyWith<$Res>
+abstract class _$$_ProductModelCopyWith<$Res>
     implements $ProductModelCopyWith<$Res> {
-  factory _$$ProductModelImplCopyWith(
-          _$ProductModelImpl value, $Res Function(_$ProductModelImpl) then) =
-      __$$ProductModelImplCopyWithImpl<$Res>;
+  factory _$$_ProductModelCopyWith(
+          _$_ProductModel value, $Res Function(_$_ProductModel) then) =
+      __$$_ProductModelCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -115,11 +115,11 @@ abstract class _$$ProductModelImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$ProductModelImplCopyWithImpl<$Res>
-    extends _$ProductModelCopyWithImpl<$Res, _$ProductModelImpl>
-    implements _$$ProductModelImplCopyWith<$Res> {
-  __$$ProductModelImplCopyWithImpl(
-      _$ProductModelImpl _value, $Res Function(_$ProductModelImpl) _then)
+class __$$_ProductModelCopyWithImpl<$Res>
+    extends _$ProductModelCopyWithImpl<$Res, _$_ProductModel>
+    implements _$$_ProductModelCopyWith<$Res> {
+  __$$_ProductModelCopyWithImpl(
+      _$_ProductModel _value, $Res Function(_$_ProductModel) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -132,7 +132,7 @@ class __$$ProductModelImplCopyWithImpl<$Res>
     Object? image = freezed,
     Object? color = freezed,
   }) {
-    return _then(_$ProductModelImpl(
+    return _then(_$_ProductModel(
       id: freezed == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
@@ -163,8 +163,8 @@ class __$$ProductModelImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$ProductModelImpl implements _ProductModel {
-  const _$ProductModelImpl(
+class _$_ProductModel implements _ProductModel {
+  const _$_ProductModel(
       {this.id,
       this.errorDescription,
       this.name,
@@ -172,8 +172,8 @@ class _$ProductModelImpl implements _ProductModel {
       this.image,
       this.color});
 
-  factory _$ProductModelImpl.fromJson(Map<String, dynamic> json) =>
-      _$$ProductModelImplFromJson(json);
+  factory _$_ProductModel.fromJson(Map<String, dynamic> json) =>
+      _$$_ProductModelFromJson(json);
 
   @override
   final int? id;
@@ -194,10 +194,10 @@ class _$ProductModelImpl implements _ProductModel {
   }
 
   @override
-  bool operator ==(Object other) {
+  bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$ProductModelImpl &&
+            other is _$_ProductModel &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.errorDescription, errorDescription) ||
                 other.errorDescription == errorDescription) &&
@@ -215,12 +215,12 @@ class _$ProductModelImpl implements _ProductModel {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$ProductModelImplCopyWith<_$ProductModelImpl> get copyWith =>
-      __$$ProductModelImplCopyWithImpl<_$ProductModelImpl>(this, _$identity);
+  _$$_ProductModelCopyWith<_$_ProductModel> get copyWith =>
+      __$$_ProductModelCopyWithImpl<_$_ProductModel>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$ProductModelImplToJson(
+    return _$$_ProductModelToJson(
       this,
     );
   }
@@ -233,10 +233,10 @@ abstract class _ProductModel implements ProductModel {
       final String? name,
       final String? sku,
       final String? image,
-      final int? color}) = _$ProductModelImpl;
+      final int? color}) = _$_ProductModel;
 
   factory _ProductModel.fromJson(Map<String, dynamic> json) =
-      _$ProductModelImpl.fromJson;
+      _$_ProductModel.fromJson;
 
   @override
   int? get id;
@@ -252,6 +252,6 @@ abstract class _ProductModel implements ProductModel {
   int? get color;
   @override
   @JsonKey(ignore: true)
-  _$$ProductModelImplCopyWith<_$ProductModelImpl> get copyWith =>
+  _$$_ProductModelCopyWith<_$_ProductModel> get copyWith =>
       throw _privateConstructorUsedError;
 }

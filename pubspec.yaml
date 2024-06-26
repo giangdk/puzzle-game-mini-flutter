@@ -1,5 +1,5 @@
 name: puzzle
-description: "A new Flutter project."
+description: Hành trình trí tuệ
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -45,6 +45,7 @@ dependencies:
   circular_countdown_timer: 0.2.2
   shared_preferences: ^2.2.0
   in_app_purchase: ^3.1.8
+  flutter_svg: ^1.1.6
 
   
 dev_dependencies:

@@ -12,7 +12,7 @@ part of 'group_question.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 GroupQuestion _$GroupQuestionFromJson(Map<String, dynamic> json) {
   return _GroupQuestion.fromJson(json);
@@ -68,22 +68,22 @@ class _$GroupQuestionCopyWithImpl<$Res, $Val extends GroupQuestion>
 }
 
 /// @nodoc
-abstract class _$$GroupQuestionImplCopyWith<$Res>
+abstract class _$$_GroupQuestionCopyWith<$Res>
     implements $GroupQuestionCopyWith<$Res> {
-  factory _$$GroupQuestionImplCopyWith(
-          _$GroupQuestionImpl value, $Res Function(_$GroupQuestionImpl) then) =
-      __$$GroupQuestionImplCopyWithImpl<$Res>;
+  factory _$$_GroupQuestionCopyWith(
+          _$_GroupQuestion value, $Res Function(_$_GroupQuestion) then) =
+      __$$_GroupQuestionCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call({String groupId, String id});
 }
 
 /// @nodoc
-class __$$GroupQuestionImplCopyWithImpl<$Res>
-    extends _$GroupQuestionCopyWithImpl<$Res, _$GroupQuestionImpl>
-    implements _$$GroupQuestionImplCopyWith<$Res> {
-  __$$GroupQuestionImplCopyWithImpl(
-      _$GroupQuestionImpl _value, $Res Function(_$GroupQuestionImpl) _then)
+class __$$_GroupQuestionCopyWithImpl<$Res>
+    extends _$GroupQuestionCopyWithImpl<$Res, _$_GroupQuestion>
+    implements _$$_GroupQuestionCopyWith<$Res> {
+  __$$_GroupQuestionCopyWithImpl(
+      _$_GroupQuestion _value, $Res Function(_$_GroupQuestion) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -92,7 +92,7 @@ class __$$GroupQuestionImplCopyWithImpl<$Res>
     Object? groupId = null,
     Object? id = null,
   }) {
-    return _then(_$GroupQuestionImpl(
+    return _then(_$_GroupQuestion(
       groupId: null == groupId
           ? _value.groupId
           : groupId // ignore: cast_nullable_to_non_nullable
@@ -107,11 +107,11 @@ class __$$GroupQuestionImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$GroupQuestionImpl implements _GroupQuestion {
-  _$GroupQuestionImpl({required this.groupId, this.id = ""});
+class _$_GroupQuestion implements _GroupQuestion {
+  _$_GroupQuestion({required this.groupId, this.id = ""});
 
-  factory _$GroupQuestionImpl.fromJson(Map<String, dynamic> json) =>
-      _$$GroupQuestionImplFromJson(json);
+  factory _$_GroupQuestion.fromJson(Map<String, dynamic> json) =>
+      _$$_GroupQuestionFromJson(json);
 
   @override
   final String groupId;
@@ -125,10 +125,10 @@ class _$GroupQuestionImpl implements _GroupQuestion {
   }
 
   @override
-  bool operator ==(Object other) {
+  bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$GroupQuestionImpl &&
+            other is _$_GroupQuestion &&
             (identical(other.groupId, groupId) || other.groupId == groupId) &&
             (identical(other.id, id) || other.id == id));
   }
@@ -140,12 +140,12 @@ class _$GroupQuestionImpl implements _GroupQuestion {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$GroupQuestionImplCopyWith<_$GroupQuestionImpl> get copyWith =>
-      __$$GroupQuestionImplCopyWithImpl<_$GroupQuestionImpl>(this, _$identity);
+  _$$_GroupQuestionCopyWith<_$_GroupQuestion> get copyWith =>
+      __$$_GroupQuestionCopyWithImpl<_$_GroupQuestion>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$GroupQuestionImplToJson(
+    return _$$_GroupQuestionToJson(
       this,
     );
   }
@@ -153,10 +153,10 @@ class _$GroupQuestionImpl implements _GroupQuestion {
 
 abstract class _GroupQuestion implements GroupQuestion {
   factory _GroupQuestion({required final String groupId, final String id}) =
-      _$GroupQuestionImpl;
+      _$_GroupQuestion;
 
   factory _GroupQuestion.fromJson(Map<String, dynamic> json) =
-      _$GroupQuestionImpl.fromJson;
+      _$_GroupQuestion.fromJson;
 
   @override
   String get groupId;
@@ -164,6 +164,6 @@ abstract class _GroupQuestion implements GroupQuestion {
   String get id;
   @override
   @JsonKey(ignore: true)
-  _$$GroupQuestionImplCopyWith<_$GroupQuestionImpl> get copyWith =>
+  _$$_GroupQuestionCopyWith<_$_GroupQuestion> get copyWith =>
       throw _privateConstructorUsedError;
 }

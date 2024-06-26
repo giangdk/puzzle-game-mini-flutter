@@ -6,13 +6,13 @@ part of 'group_question.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$GroupQuestionImpl _$$GroupQuestionImplFromJson(Map<String, dynamic> json) =>
-    _$GroupQuestionImpl(
+_$_GroupQuestion _$$_GroupQuestionFromJson(Map<String, dynamic> json) =>
+    _$_GroupQuestion(
       groupId: json['groupId'] as String,
       id: json['id'] as String? ?? "",
     );
 
-Map<String, dynamic> _$$GroupQuestionImplToJson(_$GroupQuestionImpl instance) =>
+Map<String, dynamic> _$$_GroupQuestionToJson(_$_GroupQuestion instance) =>
     <String, dynamic>{
       'groupId': instance.groupId,
       'id': instance.id,

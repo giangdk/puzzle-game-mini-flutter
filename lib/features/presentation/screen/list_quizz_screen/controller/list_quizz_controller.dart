@@ -35,7 +35,7 @@ class ListQuizzController extends GetxController {
     final jsonListSetOfQuestionResponse = jsonDecode(jsonListSetOfQuestion) as List;
 
     List<SetOfQuestion> listQuestion = jsonListSetOfQuestionResponse.map((e) => SetOfQuestion.fromJson(e)).toList();
-    listGroupId.value = jsonListGroupIdResponse.map((e) => GroupQuestion.fromJson(e)).toList();
+    listGroupId.value = jsonListGroupIdResponse.map((e) => GroupQuestion.fromJson(e)).toList().reversed.toList();
 
     for (var elementGroup in listGroupId) {
       if (listQuestion.where((element) => element.groupId == elementGroup.groupId).toList().isNotEmpty) {

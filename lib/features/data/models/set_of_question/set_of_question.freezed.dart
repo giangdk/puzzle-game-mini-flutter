@@ -12,7 +12,7 @@ part of 'set_of_question.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 SetOfQuestion _$SetOfQuestionFromJson(Map<String, dynamic> json) {
   return _SetOfQuestion.fromJson(json);
@@ -91,11 +91,11 @@ class _$SetOfQuestionCopyWithImpl<$Res, $Val extends SetOfQuestion>
 }
 
 /// @nodoc
-abstract class _$$SetOfQuestionImplCopyWith<$Res>
+abstract class _$$_SetOfQuestionCopyWith<$Res>
     implements $SetOfQuestionCopyWith<$Res> {
-  factory _$$SetOfQuestionImplCopyWith(
-          _$SetOfQuestionImpl value, $Res Function(_$SetOfQuestionImpl) then) =
-      __$$SetOfQuestionImplCopyWithImpl<$Res>;
+  factory _$$_SetOfQuestionCopyWith(
+          _$_SetOfQuestion value, $Res Function(_$_SetOfQuestion) then) =
+      __$$_SetOfQuestionCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -107,11 +107,11 @@ abstract class _$$SetOfQuestionImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$SetOfQuestionImplCopyWithImpl<$Res>
-    extends _$SetOfQuestionCopyWithImpl<$Res, _$SetOfQuestionImpl>
-    implements _$$SetOfQuestionImplCopyWith<$Res> {
-  __$$SetOfQuestionImplCopyWithImpl(
-      _$SetOfQuestionImpl _value, $Res Function(_$SetOfQuestionImpl) _then)
+class __$$_SetOfQuestionCopyWithImpl<$Res>
+    extends _$SetOfQuestionCopyWithImpl<$Res, _$_SetOfQuestion>
+    implements _$$_SetOfQuestionCopyWith<$Res> {
+  __$$_SetOfQuestionCopyWithImpl(
+      _$_SetOfQuestion _value, $Res Function(_$_SetOfQuestion) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -123,7 +123,7 @@ class __$$SetOfQuestionImplCopyWithImpl<$Res>
     Object? groupId = null,
     Object? questions = null,
   }) {
-    return _then(_$SetOfQuestionImpl(
+    return _then(_$_SetOfQuestion(
       title: null == title
           ? _value.title
           : title // ignore: cast_nullable_to_non_nullable
@@ -150,8 +150,8 @@ class __$$SetOfQuestionImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$SetOfQuestionImpl implements _SetOfQuestion {
-  _$SetOfQuestionImpl(
+class _$_SetOfQuestion implements _SetOfQuestion {
+  _$_SetOfQuestion(
       {required this.title,
       required this.thumbnail,
       required this.id,
@@ -159,8 +159,8 @@ class _$SetOfQuestionImpl implements _SetOfQuestion {
       required final List<Question> questions})
       : _questions = questions;
 
-  factory _$SetOfQuestionImpl.fromJson(Map<String, dynamic> json) =>
-      _$$SetOfQuestionImplFromJson(json);
+  factory _$_SetOfQuestion.fromJson(Map<String, dynamic> json) =>
+      _$$_SetOfQuestionFromJson(json);
 
   @override
   final String title;
@@ -184,10 +184,10 @@ class _$SetOfQuestionImpl implements _SetOfQuestion {
   }
 
   @override
-  bool operator ==(Object other) {
+  bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$SetOfQuestionImpl &&
+            other is _$_SetOfQuestion &&
             (identical(other.title, title) || other.title == title) &&
             (identical(other.thumbnail, thumbnail) ||
                 other.thumbnail == thumbnail) &&
@@ -205,12 +205,12 @@ class _$SetOfQuestionImpl implements _SetOfQuestion {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$SetOfQuestionImplCopyWith<_$SetOfQuestionImpl> get copyWith =>
-      __$$SetOfQuestionImplCopyWithImpl<_$SetOfQuestionImpl>(this, _$identity);
+  _$$_SetOfQuestionCopyWith<_$_SetOfQuestion> get copyWith =>
+      __$$_SetOfQuestionCopyWithImpl<_$_SetOfQuestion>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$SetOfQuestionImplToJson(
+    return _$$_SetOfQuestionToJson(
       this,
     );
   }
@@ -222,10 +222,10 @@ abstract class _SetOfQuestion implements SetOfQuestion {
       required final String thumbnail,
       required final String id,
       required final String groupId,
-      required final List<Question> questions}) = _$SetOfQuestionImpl;
+      required final List<Question> questions}) = _$_SetOfQuestion;
 
   factory _SetOfQuestion.fromJson(Map<String, dynamic> json) =
-      _$SetOfQuestionImpl.fromJson;
+      _$_SetOfQuestion.fromJson;
 
   @override
   String get title;
@@ -239,7 +239,7 @@ abstract class _SetOfQuestion implements SetOfQuestion {
   List<Question> get questions;
   @override
   @JsonKey(ignore: true)
-  _$$SetOfQuestionImplCopyWith<_$SetOfQuestionImpl> get copyWith =>
+  _$$_SetOfQuestionCopyWith<_$_SetOfQuestion> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
@@ -303,11 +303,10 @@ class _$QuestionCopyWithImpl<$Res, $Val extends Question>
 }
 
 /// @nodoc
-abstract class _$$QuestionImplCopyWith<$Res>
-    implements $QuestionCopyWith<$Res> {
-  factory _$$QuestionImplCopyWith(
-          _$QuestionImpl value, $Res Function(_$QuestionImpl) then) =
-      __$$QuestionImplCopyWithImpl<$Res>;
+abstract class _$$_QuestionCopyWith<$Res> implements $QuestionCopyWith<$Res> {
+  factory _$$_QuestionCopyWith(
+          _$_Question value, $Res Function(_$_Question) then) =
+      __$$_QuestionCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -315,11 +314,11 @@ abstract class _$$QuestionImplCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$QuestionImplCopyWithImpl<$Res>
-    extends _$QuestionCopyWithImpl<$Res, _$QuestionImpl>
-    implements _$$QuestionImplCopyWith<$Res> {
-  __$$QuestionImplCopyWithImpl(
-      _$QuestionImpl _value, $Res Function(_$QuestionImpl) _then)
+class __$$_QuestionCopyWithImpl<$Res>
+    extends _$QuestionCopyWithImpl<$Res, _$_Question>
+    implements _$$_QuestionCopyWith<$Res> {
+  __$$_QuestionCopyWithImpl(
+      _$_Question _value, $Res Function(_$_Question) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -329,7 +328,7 @@ class __$$QuestionImplCopyWithImpl<$Res>
     Object? questionAnswer = null,
     Object? answers = null,
   }) {
-    return _then(_$QuestionImpl(
+    return _then(_$_Question(
       questionTitle: null == questionTitle
           ? _value.questionTitle
           : questionTitle // ignore: cast_nullable_to_non_nullable
@@ -348,15 +347,15 @@ class __$$QuestionImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$QuestionImpl implements _Question {
-  _$QuestionImpl(
+class _$_Question implements _Question {
+  _$_Question(
       {required this.questionTitle,
       required this.questionAnswer,
       required final List<Answers> answers})
       : _answers = answers;
 
-  factory _$QuestionImpl.fromJson(Map<String, dynamic> json) =>
-      _$$QuestionImplFromJson(json);
+  factory _$_Question.fromJson(Map<String, dynamic> json) =>
+      _$$_QuestionFromJson(json);
 
   @override
   final String questionTitle;
@@ -376,10 +375,10 @@ class _$QuestionImpl implements _Question {
   }
 
   @override
-  bool operator ==(Object other) {
+  bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$QuestionImpl &&
+            other is _$_Question &&
             (identical(other.questionTitle, questionTitle) ||
                 other.questionTitle == questionTitle) &&
             (identical(other.questionAnswer, questionAnswer) ||
@@ -395,12 +394,12 @@ class _$QuestionImpl implements _Question {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$QuestionImplCopyWith<_$QuestionImpl> get copyWith =>
-      __$$QuestionImplCopyWithImpl<_$QuestionImpl>(this, _$identity);
+  _$$_QuestionCopyWith<_$_Question> get copyWith =>
+      __$$_QuestionCopyWithImpl<_$_Question>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$QuestionImplToJson(
+    return _$$_QuestionToJson(
       this,
     );
   }
@@ -410,10 +409,9 @@ abstract class _Question implements Question {
   factory _Question(
       {required final String questionTitle,
       required final String questionAnswer,
-      required final List<Answers> answers}) = _$QuestionImpl;
+      required final List<Answers> answers}) = _$_Question;
 
-  factory _Question.fromJson(Map<String, dynamic> json) =
-      _$QuestionImpl.fromJson;
+  factory _Question.fromJson(Map<String, dynamic> json) = _$_Question.fromJson;
 
   @override
   String get questionTitle;
@@ -423,7 +421,7 @@ abstract class _Question implements Question {
   List<Answers> get answers;
   @override
   @JsonKey(ignore: true)
-  _$$QuestionImplCopyWith<_$QuestionImpl> get copyWith =>
+  _$$_QuestionCopyWith<_$_Question> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
@@ -479,21 +477,20 @@ class _$AnswersCopyWithImpl<$Res, $Val extends Answers>
 }
 
 /// @nodoc
-abstract class _$$AnswersImplCopyWith<$Res> implements $AnswersCopyWith<$Res> {
-  factory _$$AnswersImplCopyWith(
-          _$AnswersImpl value, $Res Function(_$AnswersImpl) then) =
-      __$$AnswersImplCopyWithImpl<$Res>;
+abstract class _$$_AnswersCopyWith<$Res> implements $AnswersCopyWith<$Res> {
+  factory _$$_AnswersCopyWith(
+          _$_Answers value, $Res Function(_$_Answers) then) =
+      __$$_AnswersCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call({String answersId, String answersContent});
 }
 
 /// @nodoc
-class __$$AnswersImplCopyWithImpl<$Res>
-    extends _$AnswersCopyWithImpl<$Res, _$AnswersImpl>
-    implements _$$AnswersImplCopyWith<$Res> {
-  __$$AnswersImplCopyWithImpl(
-      _$AnswersImpl _value, $Res Function(_$AnswersImpl) _then)
+class __$$_AnswersCopyWithImpl<$Res>
+    extends _$AnswersCopyWithImpl<$Res, _$_Answers>
+    implements _$$_AnswersCopyWith<$Res> {
+  __$$_AnswersCopyWithImpl(_$_Answers _value, $Res Function(_$_Answers) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -502,7 +499,7 @@ class __$$AnswersImplCopyWithImpl<$Res>
     Object? answersId = null,
     Object? answersContent = null,
   }) {
-    return _then(_$AnswersImpl(
+    return _then(_$_Answers(
       answersId: null == answersId
           ? _value.answersId
           : answersId // ignore: cast_nullable_to_non_nullable
@@ -517,11 +514,11 @@ class __$$AnswersImplCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$AnswersImpl implements _Answers {
-  _$AnswersImpl({required this.answersId, required this.answersContent});
+class _$_Answers implements _Answers {
+  _$_Answers({required this.answersId, required this.answersContent});
 
-  factory _$AnswersImpl.fromJson(Map<String, dynamic> json) =>
-      _$$AnswersImplFromJson(json);
+  factory _$_Answers.fromJson(Map<String, dynamic> json) =>
+      _$$_AnswersFromJson(json);
 
   @override
   final String answersId;
@@ -534,10 +531,10 @@ class _$AnswersImpl implements _Answers {
   }
 
   @override
-  bool operator ==(Object other) {
+  bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$AnswersImpl &&
+            other is _$_Answers &&
             (identical(other.answersId, answersId) ||
                 other.answersId == answersId) &&
             (identical(other.answersContent, answersContent) ||
@@ -551,12 +548,12 @@ class _$AnswersImpl implements _Answers {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$AnswersImplCopyWith<_$AnswersImpl> get copyWith =>
-      __$$AnswersImplCopyWithImpl<_$AnswersImpl>(this, _$identity);
+  _$$_AnswersCopyWith<_$_Answers> get copyWith =>
+      __$$_AnswersCopyWithImpl<_$_Answers>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$AnswersImplToJson(
+    return _$$_AnswersToJson(
       this,
     );
   }
@@ -565,9 +562,9 @@ class _$AnswersImpl implements _Answers {
 abstract class _Answers implements Answers {
   factory _Answers(
       {required final String answersId,
-      required final String answersContent}) = _$AnswersImpl;
+      required final String answersContent}) = _$_Answers;
 
-  factory _Answers.fromJson(Map<String, dynamic> json) = _$AnswersImpl.fromJson;
+  factory _Answers.fromJson(Map<String, dynamic> json) = _$_Answers.fromJson;
 
   @override
   String get answersId;
@@ -575,6 +572,6 @@ abstract class _Answers implements Answers {
   String get answersContent;
   @override
   @JsonKey(ignore: true)
-  _$$AnswersImplCopyWith<_$AnswersImpl> get copyWith =>
+  _$$_AnswersCopyWith<_$_Answers> get copyWith =>
       throw _privateConstructorUsedError;
 }

@@ -6,15 +6,14 @@ part of 'product_color_model.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$ProductColorModelImpl _$$ProductColorModelImplFromJson(
-        Map<String, dynamic> json) =>
-    _$ProductColorModelImpl(
+_$_ProductColorModel _$$_ProductColorModelFromJson(Map<String, dynamic> json) =>
+    _$_ProductColorModel(
       id: json['id'] as int?,
       name: json['name'] as String?,
     );
 
-Map<String, dynamic> _$$ProductColorModelImplToJson(
-        _$ProductColorModelImpl instance) =>
+Map<String, dynamic> _$$_ProductColorModelToJson(
+        _$_ProductColorModel instance) =>
     <String, dynamic>{
       'id': instance.id,
       'name': instance.name,

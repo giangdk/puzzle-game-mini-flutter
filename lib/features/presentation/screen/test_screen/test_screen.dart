@@ -1,6 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
 import 'package:puzzle/features/data/models/set_of_question/set_of_question.dart';
@@ -20,9 +22,15 @@ class TestScreen extends StatefulWidget {
 }
 
 class _TestScreenState extends State<TestScreen> {
-  final TestController controller = Get.put(TestController())..init();
+  late TestController controller;
   final PageController _pageController = PageController();
   bool finishTest = false;
+  @override
+  void initState() {
+    controller = Get.put(TestController())..init(widget.setOfQuestion.id);
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -53,45 +61,139 @@ class _TestScreenState extends State<TestScreen> {
             child: Align(
               alignment: Alignment.center,
               child: finishTest == true
-                  ? Container(
-                      height: 700,
-                      width: 1000,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: Colors.white,
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.grey.withOpacity(0.5),
-                            offset: const Offset(3, 3), // changes position of shadow
-                          ),
-                        ],
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          const SizedBox(
-                            height: 30,
-                          ),
-                          Lottie.asset('assets/lotties/success.json', height: 400),
-                          Obx(
-                            () => Text(
-                              "Bạn đã trả lời đúng ${controller.point}/${widget.setOfQuestion.questions.length}",
-                              style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
+                  ? GetBuilder<TestController>(builder: (context) {
+                      return SingleChildScrollView(
+                        child: Container(
+                          height: 800,
+                          width: 600,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            color: Colors.white,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.grey.withOpacity(0.5),
+                                offset: const Offset(3, 3), // changes position of shadow
                               ),
-                            ),
+                            ],
                           ),
-                          const SizedBox(
-                            height: 30,
-                          ),
-                          SizedBox(
-                            child: Row(
+                          child: SingleChildScrollView(
+                            child: Column(
                               children: [
-                                const SizedBox(
-                                  width: 10,
+                                Lottie.asset('assets/lotties/success.json', height: 300),
+                                Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 40),
+                                  height: 50,
+                                  child: Row(
+                                    children: const [
+                                      Expanded(
+                                          flex: 1,
+                                          child: Text(
+                                            "Thứ hạng",
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontWeight: FontWeight.w600,
+                                              fontSize: 13,
+                                            ),
+                                          )),
+                                      Expanded(
+                                          flex: 4,
+                                          child: Text(
+                                            "Tên",
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontWeight: FontWeight.w600,
+                                              fontSize: 13,
+                                            ),
+                                          )),
+                                      Expanded(
+                                          flex: 1,
+                                          child: Text(
+                                            "Điểm số",
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontWeight: FontWeight.w600,
+                                              fontSize: 13,
+                                            ),
+                                          )),
+                                    ],
+                                  ),
                                 ),
-                                Expanded(
+                                ListView.separated(
+                                  physics: const NeverScrollableScrollPhysics(),
+                                  padding: const EdgeInsets.symmetric(horizontal: 40),
+                                  shrinkWrap: true,
+                                  itemBuilder: ((context, index3) {
+                                    return Container(
+                                      height: 50,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(12),
+                                        color: Colors.white,
+                                        border: Border.all(width: 0.5, color: Colors.grey[100]!),
+                                        boxShadow: const [
+                                          BoxShadow(
+                                            color: Color.fromRGBO(97, 89, 106, 1),
+                                            offset: Offset(2, 2),
+                                          ),
+                                          BoxShadow(
+                                            color: Color.fromRGBO(237, 237, 237, 1),
+                                            offset: Offset(-2, -2),
+                                          ),
+                                        ],
+                                      ),
+                                      child: Row(
+                                        children: [
+                                          Expanded(
+                                              flex: 1,
+                                              child: Padding(
+                                                padding: const EdgeInsets.symmetric(horizontal: 20),
+                                                child: Text(
+                                                  (index3 + 1).toString(),
+                                                  style: const TextStyle(
+                                                    color: Colors.black,
+                                                    fontWeight: FontWeight.w700,
+                                                    fontSize: 18,
+                                                  ),
+                                                ),
+                                              )),
+                                          Expanded(
+                                              flex: 4,
+                                              child: Text(
+                                                controller.listLeaderboard.value[index3].name,
+                                                style: const TextStyle(
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.w700,
+                                                  fontSize: 18,
+                                                ),
+                                              )),
+                                          Expanded(
+                                              flex: 1,
+                                              child: Padding(
+                                                padding: const EdgeInsets.symmetric(horizontal: 20),
+                                                child: Text(
+                                                  controller.listLeaderboard.value[index3].score.toString(),
+                                                  style: const TextStyle(
+                                                    color: Colors.black,
+                                                    fontWeight: FontWeight.w700,
+                                                    fontSize: 18,
+                                                  ),
+                                                ),
+                                              )),
+                                        ],
+                                      ),
+                                    );
+                                  }),
+                                  separatorBuilder: ((context, index3) {
+                                    return const SizedBox(
+                                      height: 10,
+                                    );
+                                  }),
+                                  itemCount: controller.listLeaderboard.value.length,
+                                ),
+                                const SizedBox(
+                                  height: 50,
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 40),
                                   child: ButtonMenu(
                                     onTap: () {
                                       Get.offAllNamed(AppRoutes.listQuizzScreen);
@@ -100,9 +202,10 @@ class _TestScreenState extends State<TestScreen> {
                                   ),
                                 ),
                                 const SizedBox(
-                                  width: 100,
+                                  height: 10,
                                 ),
-                                Expanded(
+                                Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: 40),
                                   child: ButtonMenu(
                                     onTap: () {
                                       Get.offAllNamed(AppRoutes.home);
@@ -111,14 +214,14 @@ class _TestScreenState extends State<TestScreen> {
                                   ),
                                 ),
                                 const SizedBox(
-                                  width: 10,
-                                ),
+                                  height: 30,
+                                )
                               ],
                             ),
-                          )
-                        ],
-                      ),
-                    )
+                          ),
+                        ),
+                      );
+                    })
                   : Container(
                       height: 700,
                       width: 1000,
@@ -142,7 +245,10 @@ class _TestScreenState extends State<TestScreen> {
                                   curve: Curves.easeInOut,
                                 );
                               } else {
-                                controller.checkPoint(widget.setOfQuestion.questions);
+                                controller.checkPoint(
+                                  widget.setOfQuestion.questions,
+                                  widget.setOfQuestion.id,
+                                );
                                 setState(() {
                                   finishTest = true;
                                 });
