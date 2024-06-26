@@ -7,8 +7,6 @@ import 'package:puzzle/core/injection/injection.dart';
 import 'package:puzzle/features/data/data_source/remote/api/product_api.dart';
 import 'package:puzzle/features/data/models/group_question/group_question.dart';
 import 'package:puzzle/features/data/models/set_of_question/set_of_question.dart';
-import 'package:puzzle/features/presentation/routes/app_routes.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ListQuizzController extends GetxController {

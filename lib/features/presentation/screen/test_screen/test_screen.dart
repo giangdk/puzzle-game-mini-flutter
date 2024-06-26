@@ -324,7 +324,7 @@ class _TestDetailState extends State<TestDetail> {
                       ),
                     ),
                     CircularCountDownTimer(
-                      duration: 10,
+                      duration: 30,
                       initialDuration: 0,
                       controller: CountDownController(),
                       width: 100,

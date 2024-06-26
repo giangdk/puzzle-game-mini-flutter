@@ -65,3 +65,5 @@ class HomeController extends GetxController {
     // });
   }
 } -->
+flutter pub get
+flutter pub run flutter_launcher_icons

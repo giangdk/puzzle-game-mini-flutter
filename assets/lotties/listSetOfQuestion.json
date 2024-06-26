@@ -148,6 +148,154 @@
         ]
     },
     {
+        "title": "Cách mạng công nghiệp",
+        "thumbnail": "https://www.contuhoc.com/Content/Images/Uploaded/636433935967763677photo-0-1491899251786.jpg.jpg",
+        "id": "adpdt6puv4ust2ldq4se",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Cách mạng công nghiệp bắt đầu ở quốc gia nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Anh"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Pháp"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Mỹ"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Đức"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Máy hơi nước của James Watt được phát minh vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1756"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1765"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1776"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1785"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Cách mạng công nghiệp diễn ra trong khoảng thời gian nào?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1730 - 1760"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1750 - 1780"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1760 - 1790"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1760 - 1840"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Đế quốc La Mã",
+        "thumbnail": "https://afamilycdn.com/zoom/480_300/150157425591193600/2022/6/17/avn-16554692109391121570165-0-0-1000-1600-crop-1655469221453646381533.png",
+        "id": "adpdt6puv4ust2ldq4se",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Ai là hoàng đế đầu tiên của Đế quốc La Mã?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Augustus"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Julius Caesar"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Nero"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Caligula"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Thành phố nào là thủ đô của Đế quốc La Mã?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Athens"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Rome"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Constantinople"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Alexandria"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Đế quốc La Mã sụp đổ vào năm nào?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "410"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "476"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1453"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "476 SCN"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "title": "Câu hỏi lịch sử tập 2",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Ftong-hop-100-cau-do-hay-ve-lich-su-viet-nam-kem-dap-an-202212192047130070.jpg?alt=media&token=d3f4ecc1-61ec-44a0-a64b-62c10074f4c1",
         "id": "byfv2vyy7w4fwokmt5fh",
@@ -466,36 +614,6 @@
         ]
     },
     {
-        "title": "cau do",
-        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2F8d808f98-c28b-4116-8ed1-64d16bb94dd8.jpeg?alt=media&token=07e32d36-4d29-4dbd-bc56-b001dd175ffb",
-        "id": "u5fr7odekabv4ns8xcr3",
-        "groupId": "Khác",
-        "questions": [
-            {
-                "questionTitle": "khi nam thi dung, khi dung thi nam.",
-                "questionAnswer": "d",
-                "answers": [
-                    {
-                        "answersId": "a",
-                        "answersContent": "dau"
-                    },
-                    {
-                        "answersId": "b",
-                        "answersContent": "minh"
-                    },
-                    {
-                        "answersId": "c",
-                        "answersContent": "tay"
-                    },
-                    {
-                        "answersId": "d",
-                        "answersContent": "chan"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "title": "Thời phong kiến Việt Nam",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/game1-puzzle.appspot.com/o/images%2Fphong%20kie%CC%82%CC%81n%20vie%CC%A3%CC%82t%20nam.jpeg?alt=media&token=90b32d96-5301-4abd-b221-d01dec709f96",
         "id": "w91izpyxjua6nhcexwpg",
@@ -704,6 +822,2286 @@
                     {
                         "answersId": "d",
                         "answersContent": "Campuchia"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Chiến tranh thế giới thứ I",
+        "thumbnail": "https://cdnmedia.baotintuc.vn/2014/08/04/09/14/cttg1.jpg",
+        "id": "r9gTDnfqn3gASa90DBGe",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Chiến tranh Thế giới thứ nhất bắt đầu vào năm nào?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1912"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1914"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1916"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1918"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nguyên nhân trực tiếp dẫn đến Chiến tranh Thế giới thứ nhất là gì?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Cuộc khủng hoảng kinh tế toàn cầu"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Cuộc tấn công của Đức vào Bỉ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Vụ ám sát Thái tử Áo-Hung Franz Ferdinand"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sự sụp đổ của Đế quốc Ottoman"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Khối Đồng Minh trong Chiến tranh Thế giới thứ nhất gồm các quốc gia nào?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Đức, Áo-Hung, Thổ Nhĩ Kỳ"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Anh, Pháp, Nga"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Mỹ, Nhật Bản, Trung Quốc"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Ý, Đức, Nhật Bản"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Trận chiến nào được coi là một trong những trận chiến đẫm máu nhất của Chiến tranh Thế giới thứ nhất?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Trận Normandy"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Trận Verdun"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Trận Stalingrad"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Trận Midway"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tuyên bố chiến tranh đầu tiên trong Chiến tranh Thế giới thứ nhất được thực hiện bởi quốc gia nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Đức tuyên chiến với Pháp"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Anh tuyên chiến với Đức"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Áo-Hung tuyên chiến với Serbia"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Nga tuyên chiến với Đức"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hiệp ước nào đã chính thức kết thúc Chiến tranh Thế giới thứ nhất?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hiệp ước Versailles"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Hiệp ước Paris"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Hiệp ước Trianon"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Hiệp ước Potsdam"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Mỹ tham gia Chiến tranh Thế giới thứ nhất vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1914"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1915"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1916"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1917"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tổng thống Mỹ trong thời gian Chiến tranh Thế giới thứ nhất là ai?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Theodore Roosevelt"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": " Woodrow Wilson"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Franklin D. Roosevelt"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Herbert Hoover"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Khái niệm Chiến tranh tổng lực (Total War) trong Chiến tranh Thế giới thứ nhất có nghĩa là gì?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sử dụng tất cả các loại vũ khí hiện có"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Chiến tranh chỉ giới hạn trong các khu vực chiến đấu"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Huy động toàn bộ nguồn lực của quốc gia, bao gồm cả kinh tế và dân sự, cho chiến tranh"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": " Chiến tranh kéo dài vô thời hạn"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Chiến thuật chiến tranh đặc trưng trong Chiến tranh Thế giới thứ nhất là gì?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Chiến tranh du kích"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Chiến tranh chiến hào"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Chiến tranh mạng"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Chiến tranh không gian"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Chiến tranh Napoleon",
+        "thumbnail": "https://vcdn1-vnexpress.vnecdn.net/2018/10/11/Napoleon-2-2502-1539250648.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ChYVEjSTFbWKDf53gpGwkA",
+        "id": "r9gTDnfqn3gASa90DBGe",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Trận chiến nào được coi là trận chiến quyết định cuối cùng trong các cuộc chiến của Napoleon?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Trận Leipzig"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Trận Waterloo"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Trận Austerlitz"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Trận Borodino"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Napoleon Bonaparte sinh ra ở đâu?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Paris, Pháp"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Rome, Ý"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Corsica, Pháp"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Nice, Pháp"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Napoleon trở thành Hoàng đế của Pháp vào năm nào?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1799"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1804"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1812"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1815"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Trận Austerlitz, còn được gọi là Trận Ba Hoàng đế, diễn ra vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1803"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": " 1804"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1805"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1806"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Napoleon bị đày ra đảo Elba lần đầu tiên vào năm nào?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1812"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1814"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1815"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1816"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Chiến dịch Nga của Napoleon bắt đầu vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1810"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1811"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1812"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1813"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Napoleon bị đánh bại bởi Liên minh thứ Bảy tại trận Waterloo, nơi nay thuộc quốc gia nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Pháp"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": " Đức"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Bỉ"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Hà Lan"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là chỉ huy chính của quân đội Anh tại trận Waterloo?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Horatio Nelson"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Arthur Wellesley, Công tước Wellington"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Thomas Picton"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "John Moore"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Sau khi thất bại tại trận Waterloo, Napoleon bị đày đến hòn đảo nào?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Elba"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Corsica"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Malta"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Saint Helena"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hệ thống phong tỏa lục địa của Napoleon nhằm mục đích gì?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Ngăn chặn quân Nga tiến vào châu  u"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Cắt đứt nguồn cung cấp từ Anh đến lục địa châu  u"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Kiểm soát các thuộc địa ở châu Phi"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Bảo vệ bờ biển Pháp khỏi cuộc xâm lược"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Chiến tranh Việt Nam",
+        "thumbnail": "https://danviet.mediacdn.vn/zoom/600_315/296231569849192448/2023/2/8/703-16758417948641164394536-0-0-799-1279-crop-1675842067945553871136.jpg",
+        "id": "r9gTDnfqn3gASa90DBGe",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Chiến tranh Việt Nam bắt đầu vào năm nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1955"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1960"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": " 1965"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1970"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Sự kiện nào được coi là nguyên nhân trực tiếp dẫn đến sự can thiệp quân sự của Mỹ vào Chiến tranh Việt Nam?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Trận Điện Biên Phủ"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sự kiện Vịnh Bắc Bộ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Hiệp định Geneva"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tết Mậu Thân"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tổng thống Mỹ nào đã tăng cường sự hiện diện quân sự của Mỹ tại Việt Nam vào những năm 1960?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Dwight D. Eisenhower"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "John F. Kennedy"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Lyndon B. Johnson"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Richard Nixon"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Chiến dịch Tết Mậu Thân diễn ra vào năm nào?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1965"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1968"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": " 1970"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": " 1972"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hiệp định Paris được ký kết vào năm nào, chấm dứt sự tham gia của Mỹ trong Chiến tranh Việt Nam?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1971"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1972"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1973"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1974"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Thủ đô của Việt Nam Cộng hòa trong Chiến tranh Việt Nam là gì?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hà Nội"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Huế"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Đà Nẵng"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sài Gòn"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Chiến dịch nào là nỗ lực cuối cùng của Mỹ nhằm cứu vãn tình hình tại miền Nam Việt Nam vào năm 1972?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Chiến dịch Rolling Thunder"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Chiến dịch Linebacker II"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Chiến dịch Phoenix"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Chiến dịch Junction City"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Cuộc rút quân cuối cùng của Mỹ khỏi Việt Nam diễn ra vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1973"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1974"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1975"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1976"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Sự kiện nào đánh dấu sự kết thúc chính thức của Chiến tranh Việt Nam?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Trận Điện Biên Phủ"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Cuộc tấn công Tết Mậu Thân"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sự sụp đổ của Sài Gòn"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Hiệp định Paris"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Chiến tranh Việt Nam đã gây ra thiệt hại nặng nề cho cả hai bên. Ước tính có bao nhiêu người Việt Nam đã thiệt mạng trong cuộc chiến này?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "500,000"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1 triệu"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "2 triệu"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "3 triệu"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Chiến tranh thế giới thứ 2",
+        "thumbnail": "https://xkld.thanhgiang.com.vn/wp-content/uploads/2020/09/tc17.jpg",
+        "id": "r9gTDnfqn3gASa90DBGe",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Chiến tranh Thế giới thứ hai bắt đầu vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1937"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1938"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1939"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1940"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Sự kiện nào được coi là khởi đầu của Chiến tranh Thế giới thứ hai?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Đức tấn công Ba Lan"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Nhật Bản tấn công Trân Châu Cảng"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Đức chiếm đóng Pháp"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Anh và Pháp tuyên chiến với Đức"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là Thủ tướng của Vương quốc Anh trong suốt phần lớn Chiến tranh Thế giới thứ hai?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Neville Chamberlain"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Winston Churchill"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Clement Attlee"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Anthony Eden"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Trận chiến nào được coi là bước ngoặt trên mặt trận phía Đông trong Chiến tranh Thế giới thứ hai?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Trận Stalingrad"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Trận Kursk"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Trận Leningrad"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Trận Moscow"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Mỹ tham gia Chiến tranh Thế giới thứ hai sau sự kiện nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Đức tấn công Ba Lan"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Trận Midway"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Trận Trân Châu Cảng"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Trận El Alamein"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hiệp ước không xâm lược lẫn nhau giữa Đức và Liên Xô được ký kết vào năm nào?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1938"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1939"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1937"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1936"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Trận chiến nào là cuộc đổ bộ lớn nhất trong lịch sử và mở đầu cho việc giải phóng châu  u khỏi sự chiếm đóng của Đức Quốc xã?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Trận Normandy (D-Day)"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Trận Bulge"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Trận Anzio"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Trận Monte Cassino"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Thành phố nào bị tấn công bởi bom nguyên tử đầu tiên trong lịch sử?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Nagasaki"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tokyo"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Hiroshima"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Kyoto"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hội nghị nào đã quyết định phân chia nước Đức thành bốn khu vực chiếm đóng sau chiến tranh?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hội nghị Tehran"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Hội nghị Yalta"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Hội nghị Potsdam"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Hội nghị San Francisco"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Chiến tranh Thế giới thứ hai kết thúc vào năm nào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "1943"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "1944"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "1945"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "1946"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Các vị tướng nổi tiếng trong lịch sử ",
+        "thumbnail": "https://danviet.mediacdn.vn/upload/1-2019/images/2019-03-18/5-danh-tuong-tai-gioi-nhat-lich-su-Viet-Nam-651-1552894512-width550height398.jpg",
+        "id": "9gTDnfqn3gASa90DBGe",
+        "groupId": "Lịch sử",
+        "questions": [
+            {
+                "questionTitle": "Ai là tổng tư lệnh của quân đội Liên Xô trong trận Stalingrad?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Georgy Zhukov"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Ivan Konev"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Konstantin Rokossovsky"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Vasily Chuikov"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Alexander Đại đế, một trong những vị tướng vĩ đại nhất trong lịch sử, là vua của nước nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Macedonia"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Hy Lạp"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "La Mã"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Ba Tư"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là vị tướng đã dẫn dắt quân đội Carthage trong Chiến tranh Punic lần thứ hai chống lại La Mã?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Hasdrubal"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Hamilcar"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Hannibal"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Scipio"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tướng Erwin Rommel của Đức, nổi tiếng với biệt danh Cáo Sa mạc, đã chiến đấu ở chiến trường nào trong Thế chiến II?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Mặt trận phía Đông"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Mặt trận Tây  u"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Mặt trận Bắc Phi"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Mặt trận Thái Bình Dương"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Napoleon Bonaparte, một trong những vị tướng vĩ đại nhất trong lịch sử, đã trở thành hoàng đế của quốc gia nào?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Pháp "
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Ý"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tây Ban Nha"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Áo"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tướng George Patton là tướng lĩnh nổi tiếng của quốc gia nào trong Thế chiến II?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Anh"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Mỹ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Liên Xô"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Canada"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Vị tướng nào đã lãnh đạo quân đội Liên bang miền Nam trong Nội chiến Hoa Kỳ?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Ulysses S. Grant"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Robert E. Lee"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "William T. Sherman"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Stonewall Jackson"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là vị tướng nổi tiếng của Mông Cổ, người sáng lập Đế quốc Mông Cổ?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Kublai Khan"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Timur"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Genghis Khan"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Batu Khan"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Vị tướng nào đã lãnh đạo quân đội Anh tại trận Waterloo?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Horatio Nelson"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Arthur Wellesley, Công tước Wellington"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Bernard Montgomery"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "James Wolfe"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Vị tướng nào đã lãnh đạo quân đội La Mã trong trận Zama, chấm dứt Chiến tranh Punic lần thứ hai?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Julius Caesar"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Augustus"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": " Pompey"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Scipio Africanus"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Những nhà thiên văn học nổi tiếng",
+        "thumbnail": "https://images.kienthuc.net.vn/zoom/800/uploaded/hongnhat/2021_03_11/3/vat-1_WOXX.jpg",
+        "id": "OHprVBzFWoo4q7VlQp0W",
+        "groupId": "Thiên văn học",
+        "questions": [
+            {
+                "questionTitle": "Ai là nhà thiên văn học phát hiện ra rằng Trái Đất quay quanh Mặt Trời, khởi đầu cho Cách mạng Khoa học?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Johannes Kepler"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Nicolaus Copernicus"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tycho Brahe"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà thiên văn học nào đã phát hiện ra bốn vệ tinh lớn nhất của Sao Mộc?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Nicolaus Copernicus"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Johannes Kepler"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Isaac Newton"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là nhà thiên văn học đã xây dựng các định luật về chuyển động của các hành tinh?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Isaac Newton"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Nicolaus Copernicus"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Johannes Kepler"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà thiên văn học nào đã phát hiện ra hành tinh Sao Thiên Vương?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Isaac Newton"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "William Herschel"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Edmund Halley"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà thiên văn học nào đã đặt nền móng cho cơ học cổ điển và định luật vạn vật hấp dẫn?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Johannes Kepler"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Isaac Newton"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tycho Brahe"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người đầu tiên quan sát và ghi chép về các vệt đen trên Mặt Trời?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Johannes Kepler"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tycho Brahe"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": " Nicolaus Copernicus"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Galileo Galilei"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà thiên văn học nào đã dự đoán sự trở lại của sao chổi mà sau này được đặt theo tên ông?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Johannes Kepler"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Edmond Halley"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Isaac Newton"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà thiên văn học nào đã phát hiện ra hành tinh Sao Hải Vương?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Johann Gottfried Galle"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "William Herschel"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": " Edmond Halley"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà thiên văn học nào đã xác định rằng Dải Ngân Hà là một trong nhiều thiên hà trong vũ trụ?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Edwin Hubble"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Carl Sagan"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": " Isaac Newton"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tycho Brahe"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà thiên văn học nào nổi tiếng với việc phát hiện ra sự giãn nở của vũ trụ?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Albert Einstein"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Edwin Hubble"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Carl Sagan"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Stephen Hawking"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Các hành tinh trong hệ mặt trời",
+        "thumbnail": "https://images2.thanhnien.vn/528068263637045248/2024/1/10/anh-man-hinh-2024-01-10-luc-115209-17048623490121574395986.png",
+        "id": "OHprVBzFWoo4q7VlQp0W",
+        "groupId": "Thiên văn học",
+        "questions": [
+            {
+                "questionTitle": "Hành tinh nào gần Mặt Trời nhất?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": " Sao Kim"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Thủy"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Hỏa"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Mộc"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào lớn nhất trong hệ Mặt Trời?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Kim"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Thổ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Mộc"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Thiên Vương"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào có ngày dài nhất trong hệ Mặt Trời?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Kim"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Hỏa"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Thổ"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Hải Vương"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào có hệ thống vành đai rõ ràng và nổi bật nhất?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Mộc"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": " Sao Thổ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Thiên Vương"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Hải Vương"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào có khí quyển chủ yếu là khí CO2 và có hiện tượng nhà kính mạnh nhất?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Thủy"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": " Sao Kim"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Hỏa"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Mộc"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào có tên gọi khác là Hành tinh Đỏ?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Thủy"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Kim"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Hỏa"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Mộc"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào có cơn bão lớn nhất trong hệ Mặt Trời, được gọi là Đại Hồng Bão?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Thổ"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Mộc"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Thiên Vương"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Hải Vương"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào có trục quay nghiêng nhiều nhất, gần như nằm ngang?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Mộc"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Thổ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Thiên Vương"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Hải Vương"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào có vệ tinh lớn nhất trong hệ Mặt Trời, gọi là Ganymede?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Mộc"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Thổ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Thiên Vương"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Hải Vương"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Hành tinh nào được biết đến với hiện tượng mưa kim cương trong bầu khí quyển của nó?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Sao Mộc"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Sao Thổ"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Sao Thiên Vương"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Sao Hải Vương"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Các tầng khí quyển",
+        "thumbnail": "https://quanly.moitruongvadothi.vn/Includes/NewsDetail/11_2021/dt_181120211135_khi-quyen-2.jpg",
+        "id": "OHprVBzFWoo4q7VlQp0W",
+        "groupId": "Thiên văn học",
+        "questions": [
+            {
+                "questionTitle": "Tầng khí quyển nào gần Trái Đất nhất và chứa nhiều khí nitrogen và oxy nhất?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Stratosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Troposphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Thermosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào có nhiệt độ tăng khi đi lên cao hơn do sự hấp thụ năng lượng từ Mặt Trời?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Stratosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Troposphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Thermosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào chứa lượng ozon dày đặc và có vai trò bảo vệ Trái Đất khỏi tia UV của Mặt Trời?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Stratosphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Troposphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Exosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào được gọi là tầng ôzon do chứa nhiều khí ozon?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Troposphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Stratosphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Thermosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào có nhiệt độ giảm dần khi đi lên cao hơn và chứa các tinh thể băng lớn?",
+                "questionAnswer": "",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Stratosphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Troposphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Thermosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào có nhiệt độ cực thấp, thường xuất hiện hiện tượng tia lửa bay  khi các hạt vũ trụ rơi vào?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Thermosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Exosphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Stratosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào bao quanh Trái Đất ở độ cao rất cao và chuyển tiếp không gian ngoài?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Stratosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Exosphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Thermosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Troposphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào có độ dày rất thấp và nhiệt độ rất cao, nhưng áp suất rất thấp?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Exosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Thermosphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Stratosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào gặp phải các cơn bão mạnh nhất và chứa lượng các phân tử thấp nhất?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Stratosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Troposphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Exosphere"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Tầng khí quyển nào giới hạn độ cao mà vật thể từ Trái Đất có thể thoát ra không gian?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Tầng Mesosphere"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Tầng Thermosphere"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Tầng Exosphere"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Tầng Stratosphere"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Những nhà triết học nổi tiếng",
+        "thumbnail": "https://image.voh.com.vn/voh/thumbnail/2022/05/22/cau-noi-hay-cua-aristotle-voh-1.jpg",
+        "id": "b4JluhNKfHGkoDnyAF5n",
+        "groupId": "Khác",
+        "questions": [
+            {
+                "questionTitle": "Nhà triết học nào nổi tiếng với câu Tôi nghĩ, vì vậy tôi tồn tại?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": " Socrates"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "René Descartes"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Aristotle"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": " Immanuel Kant"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người sáng lập triết học Tư tưởng duy lý?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Confucius"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Lao Tzu"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Karl Marx"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Immanuel Kant"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Triết gia nào nổi tiếng với phong cách viết Luận về phép xét?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Plato"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Friedrich Nietzsche"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "David Hume"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Immanuel Kant"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người sáng lập triết học hệ tư tưởng Khổng tử?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Confucius"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Buddha"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Socrates"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Plato"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Triết gia nào nổi tiếng với tác phẩm Cuộc đời và đạo đức Các nhà lập hiến?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "John Locke"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Thomas Hobbes"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "John Stuart Mill"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Jean-Jacques Rousseau"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là triết gia nổi tiếng với tác phẩm Đạo đức nicômaque?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Socrates"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Aristotle"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": " Friedrich Nietzsche"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Plato"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Triết gia nào nổi tiếng với tác phẩm Về ngụy biện?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Socrates"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Friedrich Nietzsche"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Karl Marx"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Plato"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người sáng lập triết học Cynic?",
+                "questionAnswer": "",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Diogenes"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Diogenes"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Zeno"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Heraclitus"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Triết gia nào nổi tiếng với câu nói Chúng ta không được phán xét người khác cho đến khi chúng ta đã đi trong giày của họ?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Confucius"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Jean-Paul Sartre"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Carl Jung"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Harper Lee"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là triết gia nổi tiếng với tác phẩm Tư tưởng về tự do?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "John Stuart Mill"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Thomas Hobbes"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Jean-Jacques Rousseau"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "John Locke"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Những nhà toán học nổi tiếng",
+        "thumbnail": "https://unix.edu.vn/wp-content/uploads/2021/03/unnamed-1.jpg",
+        "id": "b4JluhNKfHGkoDnyAF5n",
+        "groupId": "Khác",
+        "questions": [
+            {
+                "questionTitle": "Ai là người đã phát triển các định lý về tam giác vuông?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Pythagoras"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Euclid"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Archimedes"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": " Isaac Newton"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà toán học nào đã phát triển lý thuyết về vô hạn và vô hạn nhỏ?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "René Descartes"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Blaise Pascal"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Carl Friedrich Gauss"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Georg Cantor"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người đã phát triển hàm sin, cos và tan trong học thuật toán?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Isaac Newton"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Galileo Galilei"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Archimedes"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Al-Khwarizmi"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà toán học nào đã phát triển lý thuyết về số nguyên tố và định lý về số nguyên tố lớn nhất?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Pierre-Simon Laplace"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Évariste Galois"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Euclid"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Carl Friedrich Gauss"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người đã phát triển học thuyết về ma trận và định lý về ma trận đơn vị?",
+                "questionAnswer": "c",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "David Hilbert"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Évariste Galois"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "John von Neumann"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Gottfried Wilhelm Leibniz"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà toán học nào đã phát triển lý thuyết về chuỗi vô hạn và định lý về chuỗi hình học?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Bernhard Riemann"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Niels Henrik Abel"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Pierre-Simon Laplace"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Leonhard Euler"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người đã phát triển lý thuyết về không gian Euclid và hình học không gian?",
+                "questionAnswer": "d",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "René Descartes"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Isaac Newton"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "David Hilbert"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Euclid"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà toán học nào đã phát triển lý thuyết về phép biến đổi Fourier và biến đổi Fourier ngược?",
+                "questionAnswer": "b",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "Pierre-Simon Laplace"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Joseph Fourier"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Carl Friedrich Gauss"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "John von Neumann"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Ai là người đã phát triển lý thuyết về hình học phân tích và phát triển học phân tích?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": "René Descartes"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Blaise Pascal"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Carl Friedrich Gauss"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Augustin-Louis Cauchy"
+                    }
+                ]
+            },
+            {
+                "questionTitle": "Nhà toán học nào đã phát triển lý thuyết về lượng giác và các hàm lượng giác?",
+                "questionAnswer": "a",
+                "answers": [
+                    {
+                        "answersId": "a",
+                        "answersContent": " Leonhard Euler"
+                    },
+                    {
+                        "answersId": "b",
+                        "answersContent": "Carl Friedrich Gauss"
+                    },
+                    {
+                        "answersId": "c",
+                        "answersContent": "Archimedes"
+                    },
+                    {
+                        "answersId": "d",
+                        "answersContent": "Isaac Newton"
                     }
                 ]
             }

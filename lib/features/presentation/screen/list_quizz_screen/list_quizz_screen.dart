@@ -157,7 +157,7 @@ class _ListQuizzScreenState extends State<ListQuizzScreen> {
                                               flex: 1,
                                               child: Container(
                                                 padding: const EdgeInsets.symmetric(
-                                                  vertical: 8,
+                                                  vertical: 8 - 2.5,
                                                   horizontal: 10,
                                                 ),
                                                 child: Column(
@@ -182,9 +182,6 @@ class _ListQuizzScreenState extends State<ListQuizzScreen> {
                                                           color: Color.fromRGBO(141, 76, 211, 1),
                                                         ),
                                                       ),
-                                                    ),
-                                                    const SizedBox(
-                                                      height: 4,
                                                     ),
                                                     Text(
                                                       entries[index].value[index2].title,
