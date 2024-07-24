@@ -71,7 +71,7 @@ class InAppController extends GetxController {
   Future<void> _initialize() async {
     _available = await inAppPurchase.isAvailable();
     if (_available) {
-      const Set<String> _kIds = {'puzzle_100_plays'};
+      const Set<String> _kIds = {'10_plays_puzzle'};
       final ProductDetailsResponse response = await inAppPurchase.queryProductDetails(_kIds);
       if (response.error == null) {
         products.value = response.productDetails;
@@ -95,21 +95,18 @@ class InAppController extends GetxController {
         print(purchaseDetails.error.toString());
         verifyPurchase(purchaseDetails);
       } else if (purchaseDetails.status == PurchaseStatus.purchased) {
+        verifyPurchase(purchaseDetails);
+      } else if (purchaseDetails.status == PurchaseStatus.canceled) {
+        verifyPurchase(purchaseDetails);
+      } else if (purchaseDetails.status == PurchaseStatus.restored) {
+        verifyPurchase(purchaseDetails);
+      }
+      if (purchaseDetails.pendingCompletePurchase) {
         final SharedPreferences prefs = await SharedPreferences.getInstance();
         var num = prefs.getInt("turn") ?? 0;
-        await prefs.setInt("turn", num + 15);
+        await prefs.setInt("turn", num + 10);
         Get.put(HomeController()).init();
-        verifyPurchase(purchaseDetails);
       }
     }
   }
-
-  // void _handlePendingTransactions() async {
-  //        const Set<String> _kIds = {'puzzle_100_plays'};
-  //     final ProductDetailsResponse response = await inAppPurchase.;
-  //   for (var purchase in response.productDetails) {
-  //       verifyPurchase(purchase);
-
-  //   }
-  // }
 }

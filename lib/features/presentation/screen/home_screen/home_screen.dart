@@ -3,8 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
-import 'package:puzzle/core/config/app_colors.dart';
-import 'package:puzzle/core/injection/injection.config.dart';
 import 'package:puzzle/features/presentation/routes/app_routes.dart';
 import 'package:puzzle/features/presentation/screen/home_screen/controller/home_controller.dart';
 import 'package:puzzle/features/presentation/screen/list_quizz_screen/controller/list_quizz_controller.dart';
@@ -193,13 +191,23 @@ class _HomeScreenState extends State<HomeScreen> {
                       GetBuilder<InAppController>(builder: (inAppController) {
                         return ButtonMenu(
                           onTap: () async {
-                            final PurchaseParam purchaseParam = PurchaseParam(productDetails: inappController.products.value[0]);
-                            try {
-                              await inAppController.inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
-                            } catch (e) {
-                              print('Error during purchase: $e');
-                              if (e is PlatformException && e.code == 'storekit_duplicate_product_object') {}
-                            }
+                            await Future.delayed(const Duration(seconds: 1));
+                            showDialogUtils(
+                                title: "Mua lượt chơi",
+                                content: SizedBox(
+                                  width: 300,
+                                  child: Text("Mua 10 lượt chơi chỉ với ${inappController.products.value[0].price}"),
+                                ),
+                                rightTitle: "Mua ngay",
+                                rightAction: () async {
+                                  final PurchaseParam purchaseParam = PurchaseParam(productDetails: inappController.products.value[0]);
+                                  try {
+                                    await inAppController.inAppPurchase.buyConsumable(purchaseParam: purchaseParam);
+                                  } catch (e) {
+                                    print('Error during purchase: $e');
+                                    if (e is PlatformException && e.code == 'storekit_duplicate_product_object') {}
+                                  }
+                                });
                           },
                           title: "Mua lượt chơi",
                         );
